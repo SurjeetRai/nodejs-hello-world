@@ -1,5 +1,8 @@
 name: node.js CI
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs: #<-- start the jobs encapsulation
   build: #<--start the build job encapsulation
